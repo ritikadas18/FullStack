@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        ul{
+            margin-top: 0;
+            list-style-type: none;
+            margin: auto;
+            margin-bottom: 35px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: gray;
+            width: 100%;
+            height: 45px;
+            display: flex;
+            justify-content: space-evenly;
+            position: fixed;
+            top: 0;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            display: block;
+            color: white;
+            font-weight: bold;
+            width: 135px;
+            padding: 10px 35px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+        }
+        ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        #box1{
+            margin-top: 100px;
+            margin-bottom: 200px;
+            height: 100vh;
+            background-image: url("../image/com.jpg"); 
+            background-repeat: no-repeat;
+        }
+        #box1 h1{
+            position: absolute;
+            color: white;
+            left: 20px;
+            top: 100px;
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        #box2,#box3,#box4,#box5 h1{
+            text-align: center;
+        }
+        .circle{
+           display: block;
+            float: left; 
+            margin: 35px; 
+            width: 20%;
+            display: flex;
+           justify-items: center;
+            align-items: center;
+            margin-bottom: 150px;
+        }
+        .circle img{ 
+            height: 277px;
+            border-radius: 50%; 
+
+        }
+        
+        #left-side{
+            width: 50%;
+            height: 98vh;
+            float: left;
+            background-color: gray;
+            color: white;
+            margin-right: 10px;
+            font-size: 25px;
+            text-align: justify;
+            padding: 10px;
+        }
+        #left-side h3{
+            text-align: left;
+            margin:0;
+            margin-bottom: 10px;
+        }
+        #right-side{
+            margin-top: -35px;
+            width: 48%;
+            float: right;
+        }
+        #article-1{
+        width: 100%;
+        height: 230px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        background-image: url("../image/p1.jpg");
+        }
+        #article-2{
+        width: 100%;
+        height: 230px;
+        margin-bottom: 15px;
+        background-image: url("../image/p2.jpeg");
+        font-size: 30px; 
+        }
+        #article-3{
+        width: 100%;
+        height: 230px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        background-image: url("../image/p3.jpg");
+        }
+        #box3::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .sec{
+            width: 20%;
+            float: left;
+            background-color: lightgray;
+            margin: 20px 22px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow:  0 5px 5px rgba(0, 0, 0, 0.15);
+            height: auto;
+            margin-bottom: 150px;
+        }
+        .sec img{
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .sec h4{
+            margin: 0px 10px;
+            text-align: center;
+            
+        }
+        .sec a{
+            display: block;
+            text-align: center;
+           width: 90%;
+           padding: 10px;
+           background-color: red;
+           text-decoration: none;
+           border-radius: 10px;
+           color: white;
+           float: left;
+        }
+         
+    </style>
+</head>
+</html>
